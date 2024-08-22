@@ -29,7 +29,7 @@ Wait for all the containers to start.
 -- To allow to use the method non-localhost port forwarding and ip address(DDNS) are required 
 -for doing the post method, it should submit 4 rssi value in json format, for example:
 
-POST http://localhost:10079/predict
+POST http://<<Your-ip-address>>:10079/predict
 Content-Type: application/json; 
 
 {
